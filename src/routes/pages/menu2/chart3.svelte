@@ -9,7 +9,7 @@
         <TableBodyCell> 24% </TableBodyCell>
       </TableBodyRow>
       <TableBodyRow>
-        <TableBodyCell>Receita realizada x Receita total</TableBodyCell>
+        <TableBodyCell>Receita realizada x Receita Total</TableBodyCell>
         <TableBodyCell> 16% </TableBodyCell>
       </TableBodyRow>
     </TableBody>

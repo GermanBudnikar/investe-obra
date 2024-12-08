@@ -68,11 +68,11 @@
 	  </span>
 	</NavBrand>
 	<NavUl {hidden} {divClass} {ulClass}>
-	  <NavLi href="/pages/menu1">Menu 1</NavLi>
-	  <NavLi href="/pages/menu2">Menu 2</NavLi>
-	  <NavLi href="/pages/menu3">Menu 3</NavLi>
-	  <NavLi href="/pages/menu4">Menu 4</NavLi>
-	  <NavLi href="/pages/menu5">Menu 5</NavLi>
+	  <NavLi href="/pages/menu1">Informações do Empreendimento</NavLi>
+	  <NavLi href="/pages/menu2">Custo e Receita</NavLi>
+	  <NavLi href="/pages/menu3">Fluxo de Caixa</NavLi>
+	  <NavLi href="/pages/menu4">Custo Sintético</NavLi>
+	  <NavLi href="/pages/menu5">Receita e Custo Sintético</NavLi>
 	</NavUl>
   </Navbar>
   

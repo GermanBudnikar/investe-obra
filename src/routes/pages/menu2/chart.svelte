@@ -9,7 +9,7 @@
         <TableBodyCell> R$ 975,019.17 (24%) </TableBodyCell>
       </TableBodyRow>
       <TableBodyRow>
-        <TableBodyCell>Unidades em Estoque</TableBodyCell>
+        <TableBodyCell>Custo a Realizar</TableBodyCell>
         <TableBodyCell> R$ 3,066,652.50 (76%) </TableBodyCell>
       </TableBodyRow>
     </TableBody>
