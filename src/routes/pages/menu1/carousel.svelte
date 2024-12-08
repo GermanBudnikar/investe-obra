@@ -9,7 +9,7 @@
 			src: "/src/lib/images/apartamentos.png",
 		},
     {
-			id: 2,
+			id: 3,
 			width: 800,
 			height: 1200,
 			src: "/src/lib/images/vista.png",
