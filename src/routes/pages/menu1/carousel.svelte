@@ -1,19 +1,33 @@
-<script lang="ts">
-    import { Carousel } from 'flowbite-svelte';
-    import {images} from '$lib/images/images';
-  
-    let index = 0;
-    let image;
+<svelte:options immutable={true}/>
+
+<script>
+	import { Slidy } from '@slidy/svelte'
+	import pkg from '@slidy/svelte/package.json'
+	import { getAspectRatio } from '../../../lib/api.js'
+
+	let index = 4, position = 0, limit = 9
 </script>
 
-<div class="max-w-7xl space-y-4">
+<header>
+	<h1>{pkg.name}@{pkg.version}</h1>
+	<p>index: [{index}] position: {Math.trunc(position)}px</p>
+</header>
 
-    <Carousel style="height:767px" {images} let:Indicators let:Controls on:change={({ detail }) => (image = detail)}>
-      <Controls />
-      <Indicators />
-    </Carousel>
-  
-    <div class="rounded h-10 bg-gray-300 dark:bg-gray-700 dark:text-white p-2 my-2 text-center">
-      {image?.alt}
-    </div>
-  </div>
+<main>
+{#await getPhotos(limit) then slides}
+	<Slidy 
+		{slides}
+		bind:index 
+		bind:position
+		snap="center"
+		thumbnail
+		/>
+{/await}
+</main>
+
+<style>
+	@import url('https://unpkg.com/@slidy/svelte/dist/slidy.css');
+	main {
+		height: 75%
+	}
+</style>
