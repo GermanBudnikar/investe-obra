@@ -14,7 +14,7 @@
       </TableBodyRow>
     </TableBody>
     <tfoot>
-      <tr class="font-semibold text-gray-900 dark:text-white">
+      <tr class="font-semibold text-gray-900 dark:text-white" style="background-color: orange;">
         <th scope="row" class="py-3 px-6 text-base">Total de unidades</th>
         <td class="py-3 px-6"> R$ 7,484,419.75 (100%) </td>
       </tr>

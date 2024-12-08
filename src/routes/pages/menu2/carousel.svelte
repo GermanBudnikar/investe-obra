@@ -7,21 +7,21 @@
 			width: 800,
 			height: 1200,
 			src: "https://raw.githubusercontent.com/GermanBudnikar/investe-obra/refs/heads/main/src/lib/images/custodaobra.png",
-      alt: 'Obra (Marketing 1)'
+      alt: 'Custo da obra'
 		},
     {
 			id: 2,
 			width: 800,
 			height: 1200,
 			src: "https://raw.githubusercontent.com/GermanBudnikar/investe-obra/refs/heads/main/src/lib/images/receitadaobra.png",
-      alt: 'Obra (Marketing 2)'
+      alt: 'Receita da obra'
 		},
     {
 			id: 3,
 			width: 800,
 			height: 1200,
 			src: "https://raw.githubusercontent.com/GermanBudnikar/investe-obra/refs/heads/main/src/lib/images/avançodaobra.png",
-      alt: 'Obra (Em Andamento)'
+      alt: 'Avanço da obra'
 		}
 	];
   let index = 0, position = 0

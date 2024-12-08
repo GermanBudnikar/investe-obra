@@ -9,6 +9,8 @@
   <Carousel></Carousel>
 </div>
 
+<hr class="my-12 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
+
 <div data-id="menu2-chart">
   <Table1></Table1>
 </div>

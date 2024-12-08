@@ -2,7 +2,7 @@
     import { Table, TableBody, TableBodyCell, TableBodyRow, TableHead, TableHeadCell, Checkbox } from 'flowbite-svelte';
   </script>
   
-  <Table>
+  <Table color="green">
     <TableHead>
         <TableHeadCell></TableHeadCell>
         <TableHeadCell>Oct-24</TableHeadCell>
