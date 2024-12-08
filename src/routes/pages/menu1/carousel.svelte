@@ -1,33 +1,36 @@
-<svelte:options immutable={true}/>
-
 <script>
-	import { Slidy } from '@slidy/svelte'
-	import pkg from '@slidy/svelte/package.json'
-	import { getAspectRatio } from '../../../lib/api.js'
+	import { Slidy } from "@slidy/svelte";
 
-	let index = 4, position = 0, limit = 9
+	const slides = [
+		{
+			id: 1,
+			width: 800,
+			height: 1200,
+			src: "/src/lib/images/apartamentos.png",
+		},
+    {
+			id: 2,
+			width: 800,
+			height: 1200,
+			src: "/src/lib/images/vista.png",
+		},
+	];
+  let index = 4, position = 0
 </script>
 
-<header>
-	<h1>{pkg.name}@{pkg.version}</h1>
-	<p>index: [{index}] position: {Math.trunc(position)}px</p>
-</header>
-
 <main>
-{#await getPhotos(limit) then slides}
-	<Slidy 
-		{slides}
-		bind:index 
-		bind:position
-		snap="center"
-		thumbnail
-		/>
-{/await}
-</main>
+    <Slidy 
+      {slides}
+      bind:index 
+      bind:position
+      snap="center"
+      thumbnail
+      />
+  </main>
 
-<style>
-	@import url('https://unpkg.com/@slidy/svelte/dist/slidy.css');
-	main {
-		height: 75%
-	}
-</style>
+  <style>
+    @import url('https://unpkg.com/@slidy/svelte/dist/slidy.css');
+    main {
+      height: 75%
+    }
+  </style>
