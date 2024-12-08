@@ -4,16 +4,22 @@
 	const slides = [
 		{
 			id: 1,
-			width: 800,
-			height: 1200,
+			width: 400,
+			height: 400,
 			src: "/src/lib/images/apartamentos.png",
 		},
     {
-			id: 3,
-			width: 800,
-			height: 1200,
+			id: 2,
+			width: 400,
+			height: 400,
 			src: "/src/lib/images/vista.png",
 		},
+    {
+			id: 3,
+			width: 400,
+			height: 400,
+			src: "/src/lib/images/apartamentos2.jpg",
+		}
 	];
   let index = 4, position = 0
 </script>
@@ -31,6 +37,6 @@
   <style>
     @import url('https://unpkg.com/@slidy/svelte/dist/slidy.css');
     main {
-      height: 75%
+      height: 600px
     }
   </style>
