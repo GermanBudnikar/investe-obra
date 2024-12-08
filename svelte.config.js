@@ -1,6 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
  
-/** @type {imdwqdport('@sveltejs/kit').Config} */
+/** @type {imdwqdport('@sveltejs/kit').Config} **/
 const config = {
 	kit: {
 		adapter: adapter({
