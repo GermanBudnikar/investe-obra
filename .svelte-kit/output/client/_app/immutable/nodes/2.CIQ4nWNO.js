@@ -1,0 +1,1 @@
+import"../chunks/disclose-version.Bg9kRutz.js";import"../chunks/legacy.CtaTdtmd.js";import{a as o,t as r}from"../chunks/utils.Bbjjb1lO.js";import{s as e}from"../chunks/attributes.dgnxmykM.js";const p=""+new URL("../assets/apartamentos.CL_Snsfq.png",import.meta.url).href;var m=r('<img alt="The project logo">');function f(a){var t=m();e(t,"src",p),o(a,t)}export{f as component};
