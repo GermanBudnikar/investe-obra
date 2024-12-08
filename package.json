@@ -12,7 +12,7 @@
 		"lint": "prettier --check . && eslint .",
 		"test:e2e": "playwright test",
 		"test": "npm run test:e2e",
-		"deploy": "npm build && npx gh-pages -d build -t true"
+		"deploy": "yarn build && npx gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.3",
