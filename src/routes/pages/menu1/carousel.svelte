@@ -9,6 +9,12 @@
 			src: "/src/lib/images/apartamentos.png",
 		},
     {
+			id: 2,
+			width: 800,
+			height: 1200,
+			src: "https://t3.ftcdn.net/jpg/00/85/79/92/360_F_85799278_0BBGV9OAdQDTLnKwAPBCcg1J7QtiieJY.jpg",
+		},
+    {
 			id: 3,
 			width: 800,
 			height: 1200,
